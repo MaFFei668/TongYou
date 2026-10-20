@@ -1,46 +1,49 @@
 # 同游 TongYou
 
+**找队友、聊起来、一起进房间。**
 
-同游是一个正在开发的 Windows 多游戏组队与语音平台，包含 Minecraft Java 的整合包导入和本地启动功能。
+同游是一款正在内测开发中的 Windows 游戏组队工具，重点面向 Minecraft Java 玩家和朋友小队：把招募帖子、好友聊天、房间协作、整合包分享放在一个客户端里。
 
+[查看产品介绍与开发动态](https://afdian.com/a/MaFFei) · [申请参与测试 / 提交建议](https://github.com/MaFFei668/TongYou/issues/new)
 
-TongYou is a Windows desktop application in development for game communities and voice rooms, with integrated Minecraft Java modpack import and local launching.
+## 适合谁
 
+- 想找 Minecraft Java 玩伴，或约朋友一起玩整合包。
+- 不想在招募帖子、聊天、房间信息之间来回切换。
+- 希望和朋友分享自己有权分享的整合包，并比较可用的下载来源。
 
-## 产品目标
+## 目前的内测功能
 
+| 场景 | 同游正在提供的功能 |
+| --- | --- |
+| 找队友 | 按游戏浏览招募帖子，发布需求、留言和联系玩家 |
+| 好友交流 | 好友申请、私聊、未读与已读、在线状态 |
+| 房间协作 | 公开或私人房间、邀请码、文字聊天与语音入口 |
+| Minecraft Java | 本机世界选择、整合包导入、运行环境准备与启动入口 |
+| 联机与分享 | 房主选择游戏转发节点；成员选择房主直传或香港缓存下载，并短暂试下载测速 |
 
-- 按游戏浏览招募帖子与房间，在房间内文字交流及语音组队。
-- 导入用户提供的整合包，准备对应的游戏版本、加载器和依赖，再由用户主动启动游戏。
-- Minecraft 游戏与世界保存在玩家电脑；平台服务负责房间及连接协调。
-- 整合包原文件与安装后的游戏目录分开保存。
+游戏世界在房主电脑运行。软件不是云游戏主机，也不代替玩家购买或持有 Minecraft。
 
+## 正在招募小范围测试
 
-## 模组平台接入
+想试试的话，可以在 [Issues 留下测试意向](https://github.com/MaFFei668/TongYou/issues/new)，写上 Windows 版本、常玩的游戏或整合包、一般几个人一起玩。也欢迎直接反馈最希望解决的问题。
 
+目前软件不收费，参与体验不要求赞助。当前公开仓库没有最新客户端安装包；测试版本与取得方式以开发者后续回复和正式公告为准，请勿把这里的介绍当成稳定版发布通知。
 
-正在适配 CurseForge 和 Modrinth。CurseForge 官方接口授权仍在申请中，尚未获得密钥。计划通过获准的接口获取指定文件，尊重作者的第三方分发许可，并在安装前校验文件哈希。
+欢迎关注项目和 [爱发电开发动态](https://afdian.com/a/MaFFei)，愿意的话也可以把这个项目页面分享给一起玩的朋友。
 
+## 当前边界
 
-不会通过本仓库提供游戏本体、第三方整合包或用户存档，也不会绕过作者禁止的分发方式。
+- 仍在内测开发和跨网络验证中；节点带宽、网络线路、房主上行及多人负载会影响体验，不承诺固定延迟或下载速度。
+- 短暂试下载测速只表示当时的参考速率，不是长期保底带宽。
+- Microsoft / Minecraft 正版接入审核和真实玩家完整授权验收尚未完成，不宣传为已获批或正式可用。
+- CurseForge 官方 API 密钥仍待审核；模组与整合包分发须尊重作者许可。不会绕过作者的第三方分发限制。
+- 早期演示视频使用示例账号与隔离数据；联机模拟、合成旁白不代表真实跨网实机结果，也不代表最新版本完整功能。
 
+## 关于这个仓库
 
-## 当前状态
+这里公开项目介绍、测试反馈和开发动态，不包含应用源码、部署凭据、用户数据、Minecraft 本体或第三方整合包。应用源码保持私有。
 
+TongYou is a Windows game-grouping and room collaboration app in development, focused on Minecraft Java friends and modpack sharing. This public repository contains project information and feedback only; it is not an application source-code release.
 
-项目处于开发阶段，尚无正式对外部署或完整端到端验收。近期整合包与启动功能尚未完成安装、游戏启动及公网联机验证。当前没有广告或收费计划。
-
-
-## 仓库用途
-
-
-这是公开的项目介绍仓库，不包含应用源代码、安装包、部署材料或用户数据。应用源代码保持私有。此页面用于介绍项目及支持平台接口接入申请，不代表官方平台已批准或认证本项目。
-
-
-This repository contains project information only. Application source code is private. It is not a source-code release or a distribution of Minecraft or third-party mods.
-
-## 创作者主页与开发进展
-
-同游开发者的爱发电主页：[MaFFei · 同游 TongYou](https://afdian.com/a/MaFFei)。
-
-项目介绍和开发进展将同步发布在该主页。此链接用于展示本项目与创作者主页的关联，不代表爱发电或其他平台已经认证或批准本项目。
+不是 Minecraft 官方产品，未经 Mojang 或 Microsoft 批准，也不与其关联。
